@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- this is a comment -->
+	<input>
+		<dst name="tree" nFiles="100" url="~/bnl" />
+	</input>
+	
+	<test>
+		<sub>Hello World!</sub>
+		<sub a1="hello" a2="goodbye" a3="where" a4="nowhere">
+			Goodbye World!
+		</sub>
+
+		<sub>1, 6, 7.09, 8, 9.01212, 1, 4, 5, 6</sub>
+
+		<red>124.001059</red>
+		<red>true</red>
+		<red>trUE</red>
+		<red false="FalSE" true="TRuE"></red>
+		<red>        leading and trailing whitespace is removed     </red>
+
+		<attribOnly a1="hello" a2="has no body just close />" />
+	</test>
+	
+
+</config>
